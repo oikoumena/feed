@@ -1,11 +1,11 @@
-# FB group feed
+# fb group feed
 
 *Crontab*
 
 env TOKENS perl i.pl
 
 ### TODO
-JavaScript: show some warning if the feed is older than 2 days.
+JavaScript: window.alert() if timestamp is older than 2 days.
 
 ### Note
 
