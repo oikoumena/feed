@@ -1,10 +1,11 @@
 
-use constant FB => 'https://www.facebook.com/groups/169493716721717/';
+use constant API
+  => 'https://graph.facebook.com/169493716721717/feed?#{ACCESS_TOKEN}';
 
-# get 10 latest posts
+# get 10 latest posts by admins
 
-# create index.html/txt/md
+# build index.md
 
 # update timestamp.json
 
-# push on github pages
+# push to github pages
